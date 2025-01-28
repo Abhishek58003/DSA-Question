@@ -3,7 +3,7 @@ using namespace std;
 
 void NestedLoop2(int arr[],int size){
     for(int i=0;i<size;i++){
-        for(int j=0;j<size;j++){
+        for(int j=i;j<size;j++){
             cout<<arr[i]<<", "<<arr[j]<<endl;
             
         }
